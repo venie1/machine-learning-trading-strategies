@@ -57,14 +57,14 @@ Welcome to my **Machine Learning for Trading** portfolio! This repository showca
 
 | File                          | Role & Business Value                                                                                                   |
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| **BagLearner.py**             | Implements a bagging ensemble of decision‑tree learners.  Reduces variance and overfitting—key for robust signal generation under noisy market data. |
-| **DTLearner.py**              | Correlation‑driven regression tree.  Captures strongest drivers of price movements—improves explainability for risk/return trade‑offs.                          |
-| **InsaneLearner.py**          | “Extreme” bagging of linear regressors.  Demonstrates scalable ensemble architectures—valuable for model benchmarking and capacity planning.                  |
+| **BagLearner.py**             | Implements a bagging ensemble of decision‑tree learners.  Reduces variance and overfitting key for robust signal generation under noisy market data. |
+| **DTLearner.py**              | Correlation‑driven regression tree.  Captures strongest drivers of price movements improves explainability for risk/return trade‑offs.                          |
+| **InsaneLearner.py**          | “Extreme” bagging of linear regressors.  Demonstrates scalable ensemble architectures valuable for model benchmarking and capacity planning.                  |
 | **ManualStrategy.py**         | Rule‑based “human” strategy combining Bollinger %B, RSI, SMA cross‑over.  Provides a transparent baseline and governance‑friendly logic for compliance.       |
 | **QLearner.py**               | Tabular Q‑learning agent framework.  Foundation for reinforcement‑learning–driven execution or order‑sizing policies.                                         |
-| **RTLearner.py**              | Randomized regression tree.  Introduces stochasticity—enhances resilience across regime shifts.                                                                    |
+| **RTLearner.py**              | Randomized regression tree.  Introduces stochasticity enhances resilience across regime shifts.                                                                    |
 | **StrategyLearner.py**        | End‑to‑end ML strategy: feature engineering → bagged classification → trade signal generation.  Automates parameter tuning for rapid go‑to‑market.              |
-| **experiment1.py**            | In‑sample vs. out‑of‑sample performance comparison.  Validates model generalization—critical for live deployment risk assessment.                                |
+| **experiment1.py**            | In‑sample vs. out‑of‑sample performance comparison.  Validates model generalization critical for live deployment risk assessment.                                |
 | **experiment2.py**            | Sensitivity analysis on transaction‑cost (market impact).  Quantifies P&L erosion under varying frictions—essential for cost‑benefit optimization of algos.     |
 | **gen_data.py**               | Synthetic data generator (e.g. martingale simulations).  Enables stress‑testing strategies under extreme scenarios.                                              |
 | **indicators.py**             | Library of technical indicators: SMA, Bollinger Bands, MACD, Momentum, Stochastic.  Reusable feature‑engineering toolkit for any time‑series use case.         |
