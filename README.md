@@ -2,32 +2,6 @@
 
 Welcome to my **Machine Learning for Trading** portfolio! This repository showcases a comprehensive collection of algorithmic trading projects and tools I developed as part of my coursework and personal exploration. It demonstrates my expertise in data science, machine learning, and quantitative finance—skills highly valuable for data-driven trading, quantitative research, and analytics roles.
 
----
-
-## 📂 Repository Structure
-
-ml4t-algo-trading/
-│
-├── learners/ # Core ML model implementations
-│ ├── BagLearner.py # Ensemble bagging learner
-│ └── RTLearner.py # Randomized decision-tree learner
-│
-├── indicators/ # Technical indicator library
-│ └── indicators.py # SMA, Bollinger Bands, MACD, Momentum, Stochastic
-│
-├── strategies/
-│ ├── ManualStrategy.py # Rule‑based trading strategy combining %B, RSI, SMA
-│ └── StrategyLearner.py # Data‑driven strategy learner (bagged tree classifier)
-│
-├── experiments/
-│ ├── experiment1.py # In‑sample vs. out‑of‑sample performance comparison
-│ └── experiment2.py # Impact of transaction costs on returns & trade frequency
-│
-├── marketsimcode.py # Portfolio backtester (commissions, market impact)
-├── util.py # Data loader, date utilities
-├── README.md # This file
-├── requirements.txt # Python dependencies
-└── LICENSE # Open‑source license
 
 ---
 
