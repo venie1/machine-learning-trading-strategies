@@ -1,6 +1,6 @@
 # Machine Learning for Trading Portfolio
 
-Welcome to my **Machine Learning for Trading** portfolio! This repository showcases a comprehensive collection of algorithmic trading projects and tools I developed as part of my coursework and personal exploration. It demonstrates my expertise in data science, machine learning, and quantitative finance—skills highly valuable for data-driven trading, quantitative research, and analytics roles.
+Welcome to my **Machine Learning for Trading** portfolio! This repository showcases a comprehensive collection of algorithmic trading projects and tools I developed as part of my coursework and personal exploration. It demonstrates my expertise in data science, machine learning, and quantitative finance skills highly valuable for data-driven trading, quantitative research, and analytics roles.
 
 
 ---
