@@ -53,6 +53,39 @@ Welcome to my **Machine Learning for Trading** portfolio! This repository showca
 - **Visualizes** trade frequency drop and return erosion under higher frictions  
 
 ---
+## 📂 File Overview & Business Value
+
+| File                          | Role & Business Value                                                                                                   |
+|-------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| **BagLearner.py**             | Implements a bagging ensemble of decision‑tree learners.  Reduces variance and overfitting—key for robust signal generation under noisy market data. |
+| **DTLearner.py**              | Correlation‑driven regression tree.  Captures strongest drivers of price movements—improves explainability for risk/return trade‑offs.                          |
+| **InsaneLearner.py**          | “Extreme” bagging of linear regressors.  Demonstrates scalable ensemble architectures—valuable for model benchmarking and capacity planning.                  |
+| **ManualStrategy.py**         | Rule‑based “human” strategy combining Bollinger %B, RSI, SMA cross‑over.  Provides a transparent baseline and governance‑friendly logic for compliance.       |
+| **QLearner.py**               | Tabular Q‑learning agent framework.  Foundation for reinforcement‑learning–driven execution or order‑sizing policies.                                         |
+| **RTLearner.py**              | Randomized regression tree.  Introduces stochasticity—enhances resilience across regime shifts.                                                                    |
+| **StrategyLearner.py**        | End‑to‑end ML strategy: feature engineering → bagged classification → trade signal generation.  Automates parameter tuning for rapid go‑to‑market.              |
+| **experiment1.py**            | In‑sample vs. out‑of‑sample performance comparison.  Validates model generalization—critical for live deployment risk assessment.                                |
+| **experiment2.py**            | Sensitivity analysis on transaction‑cost (market impact).  Quantifies P&L erosion under varying frictions—essential for cost‑benefit optimization of algos.     |
+| **gen_data.py**               | Synthetic data generator (e.g. martingale simulations).  Enables stress‑testing strategies under extreme scenarios.                                              |
+| **indicators.py**             | Library of technical indicators: SMA, Bollinger Bands, MACD, Momentum, Stochastic.  Reusable feature‑engineering toolkit for any time‑series use case.         |
+| **marketsimcode.py**          | Market simulator with realistic commissions & impact modeling.  Core engine for “what‑if” P&L projection and scenario analysis.                                 |
+| **martingale.py**             | Monte Carlo martingale betting simulation.  Demonstrates risk of doubling strategies—parallels in position sizing/risk management.                             |
+| **testlearner.py**            | Harness to train & evaluate any Learner (DT, RT, Bag, Insane).  Standardized benchmarking harness for rapid model comparison.                                    |
+| **testproject.py**            | End‑to‑end sample workflow: data → strategy → backtest → metrics → plots.  Blueprint for production workflows or prototype demos.                             |
+| **metadata.yml**              | Project metadata & configuration.  Useful for CI/CD or documentation generation pipelines.                                                                           |
+| **\*_report.pdf**             | Detailed write‑ups for Projects 1,2,3,6,8.  Combines methodology, results, business insights & actionable recommendations—ready for stakeholder presentations.  |
+
+---
+
+## 🎯 Business Impact & Applications
+
+- **Automated Signal Generation**: Ensemble learners & Q‑learning enable adaptive strategies that can be deployed in algorithmic execution platforms.
+- **Risk Management**: Transaction‑cost sensitivity and Monte Carlo stress‑tests inform position‑sizing rules and capital allocation.
+- **Explainability & Compliance**: Transparent rule‑based and tree‑based models support audit trails and regulatory requirements.
+- **Rapid Prototyping**: Modular indicators & standardized test harness accelerate “proof of concept” to production.
+- **Portfolio Advisory**: Backtesting framework provides clear performance attribution for pitch decks and client reporting.
+
+---
 
 ## 🎯 Metrics & Performance
 
